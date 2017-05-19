@@ -1,0 +1,38 @@
+<div class="site-header-affix-wrapper">
+    <header id="masthead" class="site-header header-dark" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="site-branding">
+                        <h1 class="site-title">
+                        	<a href="{{ "/" | relative_url}}" rel="home">JUMIA<span class="title_thin">Tech</span></a>
+                        </h1>
+                    </div><!-- .site-branding -->
+                </div><!-- .col-sm-4 -->
+
+                <div class="col-sm-9">
+                    <nav id="site-navigation" class="main-navigation" role="navigation">
+                        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-align-left"></i><span class="sr-only">Primary Menu</span></button>
+
+                        <div class="menu-testing-menu-container">
+                            <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
+	                        	{% assign sorted_categories = site.blog_categories | sort: 'menu-position' %}
+	                        	{% if sorted_categories %}
+                                <li class="menu-item menu-item-has-children" aria-haspopup="true"><a href="#">Categories</a>
+                                    <ul class="sub-menu">
+											{% for categ_info in sorted_categories %}
+                                            <li class="menu-item"><a href="{{ categ_info.url }}">{{ categ_info.name }}</a></li>
+											{% endfor %}
+                                    </ul>
+                                </li>
+								{% endif %}
+                                <li class="menu-item"><a href="{{ "about" | relative_url}}">About</a></li>
+                                <li class="menu-item"><a href="{{ "contact" | relative_url }}">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- #site-navigation -->
+                </div><!-- .col-sm-8 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </header><!-- #masthead -->
+</div><!-- .site-header-affix-wrapper -->

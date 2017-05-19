@@ -1,0 +1,37 @@
+
+{% assign category_links = nil %}
+{% for category in post.categories %}
+  {% assign category_info = site.blog_categories | where: "slug", category %}
+  {% if category_info %} 
+    {% for cat in category_info %}
+      {% capture partial_capture %}<a class="" href="{{ cat.url }}">{{ cat.name }}</a>{% endcapture %}
+      {% if category_links %}
+          {% assign category_links = category_links | append: ', ' %}
+      {% endif %}
+      {% assign category_links = category_links | append: partial_capture %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+<div class="popular-entry-container">
+
+  <div class="entry-image">
+	{% if post.thumbnail-aside %}
+      <img src="{{ post.thumbnail-aside }}" alt="{{ post.title }}">
+	{% else %}
+    {% if post.thumbnail %}
+      <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
+	  {% else %}
+      <img src="/img/img-soon.png" alt="{{ post.title }}">
+    {% endif %}
+  {% endif %}
+  </div><!-- .entry-image -->
+	
+  <div class="entry-content">
+    <h4 class="entry-title">
+      <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+    </h4>
+    <span class="entry-category">{{ category_links }}</span>
+    <span class="entry-datetime">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </div><!-- .entry-content -->
+</div><!-- .popular-entry-container -->

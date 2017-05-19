@@ -1,0 +1,70 @@
+    <!-- site-footer -->
+    <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <section class="widget widget_tag_cloud">
+                        <h3 class="widget-title">Tags</h3>
+                        <div class="tagcloud">
+                        	{% for tag in site.blog_tags %}
+	                            <a href="{{ tag.url }}">{{ tag.name }}</a>
+							{% endfor %}
+                        </div>
+                    </section><!-- .widget_tag_cloud -->
+                </div><!-- .col-sm-3 -->
+
+                <div class="col-sm-3">
+                    <!-- section class="widget widget_recent_entries">
+                        <h3 class="widget-title">Headline</h3>
+                        <ul>
+                            <li>
+                                <a href="single.html">How we did “360 PERFORMANCE REVIEW” in our tech organization</a>
+                                <span class="post-date">March 19, 2017</span>
+                            </li>
+                            <li>
+                                <a href="single.html">How to build an Engineering Culture, vol.1</a>
+                                <span class="post-date">March 9, 2017</span>
+                            </li>
+                            <li>
+                                <a href="single.html">Please meet Business Intelligence.</a>
+                                <span class="post-date">March 5, 2017</span>
+                            </li>
+                        </ul>
+                    </section --><!-- .widget_recent_entries -->
+                </div><!-- .col-sm-3 -->
+
+                <div class="col-sm-6">
+                    <section class="widget">
+                        <div class="site-info">
+                            <h4 class="site-brand">JUMIA</h4>
+                            <h3>Porto Tech Center</h3>
+                            <p>Rua Ricardo Severo, n.º 3, 1º piso, 4050-515 Porto</p>
+                            <br>
+                            <p class="muted">© 2017 Jumia.</p>
+                        </div><!-- .site-info -->
+                    </section>
+                </div><!-- .col-sm-6 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </footer><!-- #site-footer -->
+
+    <!-- copyright -->
+    <section id="copyright" class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 copy-left">
+                    Copyright © {{ site.time | date: '%Y' }} <a href="http://www.jumia.com"><strong>Jumia</strong></a>. All Right Reserved.
+                </div><!-- .col-sm-6 -->
+
+                <div class="col-sm-6 copy-right">
+                    <ul class="social-icon">
+                        <li><a href="{{ "/feed.xml" | relative_url }}"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="http://twitter.com/{{ site.twitter_username }}" target="_blank" class="icon-twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" class="icon-facebook"><i class="fa fa-facebook-square"></i></a></li>
+                        <!-- li><a href="#" target="_blank" class="icon-youtube"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#" target="_blank" class="icon-instagram"><i class="fa fa-instagram"></i></a></li -->
+                    </ul>
+                </div><!-- .col-sm-6 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section><!-- #copyright -->

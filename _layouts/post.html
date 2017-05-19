@@ -1,0 +1,165 @@
+---
+layout: main
+---
+
+{% assign ret_categories = "" | split: "" %}
+{% for category in page.categories %}
+  {% assign category_info = site.blog_categories | where: "slug", category %}
+  {% if category_info %} 
+    {% for cat in category_info %}
+      {% capture partial_capture %}<a class="" href="{{ cat.url }}">{{ cat.name }}</a>{% endcapture %}
+      {% if category_links %}
+          {% assign category_links = category_links | append: ', ' %}
+      {% endif %}
+      {% assign category_links = category_links | append: partial_capture %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+
+
+{% for tag in page.tags %}
+  {% assign tag_info = site.blog_tags | where: "slug", tag %} 
+  {% if tag_info %} 
+    {% for tag_detail in tag_info %}
+        {% capture partial_capture %}<a class="" href="{{ tag_detail.url }}">{{ tag_detail.name }}</a>{% endcapture %}
+        {% if tags_links %}
+            {% assign tags_links = tags_links | append: ', ' %}
+        {% endif %}
+        {% assign tags_links = tags_links | append: partial_capture %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+
+{% assign relatedPosts = "" | split: "" %}
+{% assign maxRelated = 4 %}
+{% assign minCommonTags =  1 %}
+{% assign maxRelatedCounter = 0 %}
+{% for post in site.posts %}
+  {% assign sameTagCount = 0 %}
+  {% assign commonTags = '' %}
+  {% for tag in post.tags %}
+    {% if post.url != page.url %}
+      {% if page.tags contains tag %}
+        {% assign sameTagCount = sameTagCount | plus: 1 %}
+        {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+        {% assign commonTags = commonTags | append: tagmarkup %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if sameTagCount >= minCommonTags %}
+     {% assign relatedPosts = relatedPosts | push: post %}
+     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+    {% if maxRelatedCounter >= maxRelated %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+
+{% endfor %}
+
+<!-- content -->
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 page-default">
+
+            <article class="post post-detail-container hentry" itemscope itemtype="http://schema.org/BlogPosting">
+              <header class="post-header">
+                <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+                
+                <div class="entry-meta">
+                  <span class="posted-on">{{ page.date | date: "%b %-d, %Y" }}</span>
+                  {% if page.author %}
+                  <span class="byline"> by <span class="strong author vcard">{{ page.author }}</span></span>
+                  {% endif %}
+                  {% if page.reading-estimation %}
+                  <span class="reading-estimation">{{ page.reading-estimation }} Read</span>
+                  {% endif %}
+                </div>
+
+              </header>
+
+              <div class="post-container">
+              {{ content }}
+              </div>
+              
+              <footer class="entry-footer">
+                  {% if category_links %}
+                  <span class="cat-links">Posted in {{ category_links }}</span>
+                  {% endif %}
+                  {% if tags_links %}
+                  <span class="tags-links">Tagged {{ tags_links }}</span>
+                  {% endif %}
+                </footer><!-- .entry-footer -->
+              </article><!-- .post -->
+
+
+              <nav class="navigation post-navigation" role="navigation">
+                <h2 class="screen-reader-text">Post navigation</h2>
+                <div class="nav-links">
+                  {% if page.previous.url %}<div class="nav-previous"><a href="{{page.previous.url}}" rel="prev">{{page.previous.title}}</a></div>{% endif %}{% if page.next.url %}<div class="nav-next"><a href="{{page.next.url}}" rel="next">{{page.next.title}}</a></div>{% endif %}
+                </div>
+              </nav><!-- .navigation -->
+
+              <div id="comments" class="comments-area">
+                {% if site.disqus.enabled %}
+                  {% if site.disqus.shortname %}
+                  {% include disqus_comments.html %}
+                  {% endif %}
+                {% endif %}
+              </div><!-- #comments -->
+
+            </article>
+
+          </div>
+          <div class="col-md-4">
+
+
+              <section class="widget danish_widget_popular_entries">
+
+              {% if relatedPosts.size > 0 %}
+              <h2 class="widget-title">You may also like</h2>
+              <ul>
+              {% for post in relatedPosts limit:3 %}
+              <li>
+              {% include post-aside.html post=post %}
+              </li>
+              {% endfor %}
+
+              </ul>
+              {% endif %}
+
+              <h2 class="widget-title">Recent Posts</h2>
+              <ul>
+              {% assign recentPosts = site.posts | where_exp: "item", "item.title != page.title"  %}
+              {% for post in recentPosts limit:3 %}
+              <li>
+              {% include post-aside.html post=post %}
+              </li>
+              {% endfor %}
+              </ul>
+              </section><!-- .danish_widget_popular_entries -->
+
+
+              <section class="widget widget_tag_cloud">
+              <h2 class="widget-title">Tags</h2>
+              <div class="tagcloud">
+              {% for tag in site.blog_tags %}
+              <a href="{{ tag.url }}">{{ tag.name }}</a>
+              {% endfor %}
+              </div>
+              </section><!-- .widget_tag_cloud -->
+
+          
+            {% include facebook-section.html %}
+          </div>
+        </div>
+    </main>
+  </div>
+</div>
+
+

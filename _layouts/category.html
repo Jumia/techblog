@@ -1,0 +1,38 @@
+---
+layout: main
+---
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-title"><h2>{{ page.name }}</h2></div>
+    </div><!-- .col-md-12 -->
+</div>
+
+{% assign posts = site.posts | where: "categories", page.slug %}
+<!-- content -->
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <div class="container">
+
+                {% assign content = page.content | strip_newlines %}
+            	{% if content != "" %}
+            	<!--  cat desc -->
+				<article class="post format-standard hentry">
+					<div class="post-container">
+					  <div class="post-content">
+					  		{{ content }}
+					  </div><!-- .post-content -->
+					</div><!-- .post-container -->
+				</article>
+				<!-- end cat desc -->
+				{% endif %}
+
+                <div class="row container-post">
+                    {% for post in posts %}
+                      {% include post-card-item.html %}
+                    {% endfor %}
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

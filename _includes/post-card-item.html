@@ -1,0 +1,38 @@
+{% assign category_links = '' %}
+{% for category in post.categories %}
+    {% assign category_info = site.blog_categories | where: "slug", category %}
+    {% if category_info %} 
+        {% for cat in category_info %}
+            {% capture partial_capture %}<a class="" href="{{ cat.url }}">{{ cat.name }}</a>{% endcapture %}
+            {% if category_links != '' %}
+                {% assign category_links = category_links | append: ', ' %}
+            {% endif %}
+            {% assign category_links = category_links | append: partial_capture %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+    <article class="post format-standard hentry">
+        <div class="post-container">
+            <div class="post-content">
+                {% if post.thumbnail %}
+                    <a href="{{ post.url | relative_url }}">
+                            <img src="{{ post.thumbnail }}" alt="">
+                    </a>
+                {% endif %}
+                <div class="heading-title heading-small">
+                    <span class="post-meta-cat">{{ category_links }}</span>
+                    <h2><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title | escape }}</a></h2>
+                </div><!-- .heading-title -->
+                <div class="post-meta">
+                    <span class="posted-on">Posted on <time style="font-weight: bold;" class="entry-date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
+                    <span class="byline"> by <span class="author vcard"><strong>{{ post.author }}</strong></span></span>
+                </div><!-- .post-meta -->
+                <p>
+                {{ post.content | strip_html | truncatewords: 40  }}
+                </p>
+            </div><!-- .post-content -->
+        </div>
+    </article><!-- #post-## -->
+</div><!-- .col-md-4 -->
