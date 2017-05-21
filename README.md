@@ -1,6 +1,6 @@
 # Jumia Tech Blog
 
-[![Software License][ico-license]](LICENSE.md)    
+[![Software License][ico-license]](LICENSE)    
 
 Source code of [https://tech.jumia.com/](https://tech.jumia.com/).
 
@@ -44,7 +44,7 @@ If you discover any security related issues, please email tiago.lopes@jumia.com 
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [link-contributors]: ../../contributors
