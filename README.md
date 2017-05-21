@@ -30,8 +30,10 @@ $ bundle exec jekyll serve
 
 
 ## Contributing
-Contributions are welcome and will be fully credited.
-Check [how to contribute](CONTRIBUTING.md).
+Contributions are welcome and will be fully credited.   
+You can contribute with new posts or pages but feel free to contribute with design/development changes as well.  
+  
+Check [contributing guidelines](CONTRIBUTING.md).
 
 
 ## Security
