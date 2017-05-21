@@ -5,7 +5,7 @@
 Provide a detailed description of the change or addition you are proposing.
 
 Make it clear if the issue is a blog post, a bug, an enhancement or just a question.
-If it is a blog post, use the label "blog-content" and use "POST_TEMPLATE.md" as reference.
+NOTE: If it is a blog post, use the label "blog-content" and use "POST_TEMPLATE.md" as reference.
 
 ## Context
 
