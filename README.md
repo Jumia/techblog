@@ -1,10 +1,10 @@
-#Jumia Tech Blog
+# Jumia Tech Blog
 
 [![Software License][ico-license]](LICENSE.md)    
 
 Source code of [https://tech.jumia.com/](https://tech.jumia.com/).
 
-##Usage
+## Usage
 
 **Quick setup with docker**
 ```bash
@@ -24,25 +24,25 @@ $ bundle exec jekyll serve
 # => Now browse to http://localhost:4000
 ```
 
-###Dependencies
+## Dependencies
 - Jekyll
 - Docker (optional)
 
 
-###Contributing
+## Contributing
 Contributions are welcome and will be fully credited.
 Check [how to contribute](CONTRIBUTING.md).
 
 
-### Security
+## Security
 
 If you discover any security related issues, please email tiago.lopes@jumia.com instead of using the issue tracker.
 
-### Credits
+## Credits
 
 - [All Contributors][link-contributors]
 
-### License
+## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
