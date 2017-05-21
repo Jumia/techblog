@@ -46,10 +46,10 @@ We had the following initial requirements while designing this solution on the A
 
 
 * [Secure by design](https://en.wikipedia.org/wiki/Secure_by_design)
-* Highly available via multi-master replication</span></li>
-* Single login for all platforms/countries</span></li>
-* Minimal performance impact</span></li>
-* No admin overhead</span></li>
+* Highly available via multi-master replication
+* Single login for all platforms/countries
+* Minimal performance impact
+* No admin overhead
 
 # Chosen technologies
 
@@ -74,7 +74,7 @@ We chose the following AWS services and technologies to implement our solution.
 
 **Envelope encryption**
 
-Oversimplifying envelope encryption is when you encrypt a <i>key</i> rather than the data itself. That encrypted key, which was used to encrypt the data, may now be stored with the data itself on your persistence layer since it doesn’t decrypt the data if compromised. For more information, see [How Envelope Encryption Works with Supported AWS Services](https://docs.aws.amazon.com/kms/latest/developerguide/workflow.html).    
+Oversimplifying envelope encryption is when you encrypt a _key_ rather than the data itself. That encrypted key, which was used to encrypt the data, may now be stored with the data itself on your persistence layer since it doesn’t decrypt the data if compromised. For more information, see [How Envelope Encryption Works with Supported AWS Services](https://docs.aws.amazon.com/kms/latest/developerguide/workflow.html).    
 Envelope encryption was chosen given that master keys have a 4 KB limit for data to be encrypted or decrypted.
 
 **Amazon SQS**
