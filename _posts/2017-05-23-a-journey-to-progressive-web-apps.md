@@ -100,7 +100,7 @@ This challenge was very important to me and I understood it was the only way thi
 
 ### Bigger may not be better 
 
-<img style="float:right;height:320px; padding: 0 0 16px 16px" src="https://developers.google.com/web/fundamentals/performance/prpl-pattern/images/app-build-components.png" alt="PRPL" />
+<img style="float:right;padding: 0 0 16px 16px" src="/img/posts/app-build-components.png" alt="PRPL" />
 
 As soon as the application began to grow beyond the prototype and closer to the expected final result, our tests started to show that we were failing in performance. The Progressive Web App was slower compared to the current mobile experience. One of the major risks to build a Single Page Application is to add too much code to load in order to start the application. An action was to be taken to take us on the right course again. We broke down the app in small pieces and make sure that we lazy loaded features only when needed. We used the PRPL pattern, which stands for Push, Render, Pre-cache, Lazy-load. The idea behind PRPL is to make sure that the first render happens as soon as possible, and to do that the developer should serve by priority elements that are visible and useful for the first interaction, using lazy-load technics through html import, service workers or by HTTP2 push. The result is that some applications features were downloaded only when requested or by the service worker in the background if the application was idle. This allowed to slim down the app shell by 200% and to get a faster first render.
 
@@ -114,7 +114,7 @@ For tracking it was important to understand that in this architecture model, eve
 
 ## The results
 
-<img src="https://developers.google.com/web/showcase/2017/images/jumia/jumia-detail_2x.jpg" style="float:right; height: 320px; width: 320px" alt="Jumia Travel" />
+<img src="/img/posts/jumia-detail_2x.jpg" style="float:right; height: 320px; width: 320px" alt="Jumia Travel" />
 
 One year after the prototype was started we launched the PWA for a limited set of users with specific browser versions. And while results were arriving we opened the restrictions to other browsers or browsers versions.
 
