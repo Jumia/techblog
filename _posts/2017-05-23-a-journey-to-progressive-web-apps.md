@@ -6,19 +6,18 @@ author:     "José Santos"
 categories: [web-development]
 tags:       [pwa, web-components]
 permalink:  /a-journey-to-progressive-web-apps/
-thumbnail:  /img/posts/POST_IMAGE.jpg
+thumbnail:  /img/posts/pwa-thumb.png
 ---
 
 **JUMIA** TRAVEL 
 
-# A JOURNEY TO
-# PROGRESSIVE WEB APPS
+# A JOURNEY TO PROGRESSIVE WEB APPS
 
 **___**
 
 `By José Santos`
 
-![Progressive Web Apps](/img/posts/pwa-thumb.png)
+![Progressive Web Apps](/img/posts/pwa.png)
 
 ## INTRODUCTION
 
