@@ -100,7 +100,7 @@ This challenge was very important to me and I understood it was the only way thi
 
 ### Bigger may not be better 
 
-<img style="float:right;padding: 0 0 16px 16px" src="/img/posts/app-build-components.png" alt="PRPL" />
+<img style="padding: 0 0 16px 16px" align="right" src="/img/posts/app-build-components.png" alt="PRPL" />
 
 As soon as the application began to grow beyond the prototype and closer to the expected final result, our tests started to show that we were failing in performance. The Progressive Web App was slower compared to the current mobile experience. One of the major risks to build a Single Page Application is to add too much code to load in order to start the application. An action was to be taken to take us on the right course again. We broke down the app in small pieces and make sure that we lazy loaded features only when needed. We used the PRPL pattern, which stands for Push, Render, Pre-cache, Lazy-load. The idea behind PRPL is to make sure that the first render happens as soon as possible, and to do that the developer should serve by priority elements that are visible and useful for the first interaction, using lazy-load technics through html import, service workers or by HTTP2 push. The result is that some applications features were downloaded only when requested or by the service worker in the background if the application was idle. This allowed to slim down the app shell by 200% and to get a faster first render.
 
@@ -114,7 +114,7 @@ For tracking it was important to understand that in this architecture model, eve
 
 ## The results
 
-<img src="/img/posts/jumia-detail_2x.jpg" style="float:right; height: 320px; width: 320px" alt="Jumia Travel" />
+<img src="/img/posts/jumia-detail_2x.jpg" align="right" style="padding: 0 0 16px 16px" alt="Jumia Travel" />
 
 One year after the prototype was started we launched the PWA for a limited set of users with specific browser versions. And while results were arriving we opened the restrictions to other browsers or browsers versions.
 
@@ -136,7 +136,7 @@ In May of 2017, Google published our results, we had
 
 ### Think back
 
-<img src="/img/posts/jumia-travel-compatibility.png" style="float:right;width: 480px; padding: 0 0 16px 16px" alt="Jumia Travel compatibility expo in 20 devices at Google I/O'17" title="Jumia Travel running in 20 devices at Google I/O'17" />
+<img src="/img/posts/jumia-travel-compatibility.png" align="right"  style="padding: 0 0 16px 16px" alt="Jumia Travel compatibility expo in 20 devices at Google I/O'17" title="Jumia Travel running in 20 devices at Google I/O'17" />
 
 For me, working in this PWA was a unique experience and a lesson on how to think and recreate the concept on building application for the web. Developers have been asking for a more centric technology and tools to build modern applications that breaks all the conceptual rules of the old web. With web components and service workers we were given the tools to extends our creativity beyond our limits. I was able to reorganize all the vendors tools that I’ve been using for the last decade and to focus more on the user experience without searching too much if there’s something already done to boost my productivity.
 Well designed PWA are in fact faster, engaging and reliable, but they are also Hard, and to build one is a culture of taking good experient or data driven decisions, since there's no real guidelines or good practices to be found. PWAs experiences are still very new and I believe there's is a lot of terrain undiscovered.
