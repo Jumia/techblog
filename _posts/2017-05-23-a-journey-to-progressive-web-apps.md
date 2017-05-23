@@ -9,15 +9,10 @@ permalink:  /a-journey-to-progressive-web-apps/
 thumbnail:  /img/posts/pwa-thumb.png
 ---
 
-**JUMIA** TRAVEL 
+<center>
+	<img alt="Progressive Web Apps" src="/img/posts/pwa.png" style="width: 90%" />
+</center>
 
-# A JOURNEY TO PROGRESSIVE WEB APPS
-
-**___**
-
-`By José Santos`
-
-![Progressive Web Apps](/img/posts/pwa.png)
 
 ## INTRODUCTION
 
