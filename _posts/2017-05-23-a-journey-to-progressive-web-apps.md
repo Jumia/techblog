@@ -142,9 +142,9 @@ For me, working in this PWA was a unique experience and a lesson on how to think
 Well designed PWA are in fact faster, engaging and reliable, but they are also Hard, and to build one is a culture of taking good experient or data driven decisions, since there's no real guidelines or good practices to be found. PWAs experiences are still very new and I believe there's is a lot of terrain undiscovered.
 
 ## Some references
- * [Watch Taylor Savage showcasing Jumia Travel PWA in the Chromedev Summit 2016](https://www.youtube.com/watch?v=Ihdp63FaRKA&t=12m44s)
- * [Jumia Travel Show case in the Google I/O'17](https://www.youtube.com/watch?v=cuoZenpQveQ&list=PLNYkxOF6rcICniLJ2rfj0FexlA-9zmJJE&index=2&t=12m45s)
- * [Jumia Travel among many other PWA in Google I/O'17](https://www.youtube.com/watch?v=_ssDaecATCM&list=PLNYkxOF6rcICniLJ2rfj0FexlA-9zmJJE&index=6&t=15m12s)
+ * [Taylor Savage showcasing Jumia Travel PWA in the Chromedev Summit 2016](https://www.youtube.com/watch?v=Ihdp63FaRKA&t=12m44s)
+ * [Jumia Travel Show case at Google I/O'17](https://www.youtube.com/watch?v=cuoZenpQveQ&list=PLNYkxOF6rcICniLJ2rfj0FexlA-9zmJJE&index=2&t=12m45s)
+ * [Jumia Travel among many other PWA at Google I/O'17](https://www.youtube.com/watch?v=_ssDaecATCM&list=PLNYkxOF6rcICniLJ2rfj0FexlA-9zmJJE&index=6&t=15m12s)
 
 
 
