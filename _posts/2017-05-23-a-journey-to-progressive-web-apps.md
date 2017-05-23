@@ -54,11 +54,11 @@ It should be an application that always works in any network condition, should b
 
 ## How we build our PWA
 
-When building a PWA we faced a serie of challenge. I could say the first one was the fact there was no much where to look at. In our perspective PWA’s are still a very young concept or idea and we didn’t know where to go and how to get there. 
+When building a PWA we faced a series of challenges. I could say the first one was the fact there was no much where to look at. In our perspective PWA’s are still a very young concept or idea and we didn’t know where to go and how to get there. 
 
 ### The search for the values
 
-Somewhere around February 2016 I started to investigate more on how I could build a web application that felt like a natural application. I was suggested to look at a new Google technology called Polymer. For me, it was my introduction to Web Components. Web Components looked nice, they are a set of four technologies, shadow dom, templates, html imports and custom elements and the latest caugh my attention. I knew if I wanted to create a good performance application I needed to make a mentality change. This was going to be a total change of methodology.
+Somewhere around February 2016 I started to investigate more on how I could build a web application that felt like a natural application. I was suggested to look at a new Google technology called Polymer. For me, it was my introduction to Web Components. Web Components looked nice, they are a set of four technologies, shadow dom, templates, html imports and custom elements and the latest caught my attention. I knew if I wanted to create a good performance application I needed to make a mentality change. This was going to be a total change of methodology.
 
 ### The custom way of building quality
 
@@ -102,7 +102,7 @@ This challenge was very important to me and I understood it was the only way thi
 
 <img style="padding: 0 0 16px 16px" align="right" src="/img/posts/app-build-components.png" alt="PRPL" />
 
-As soon as the application began to grow beyond the prototype and closer to the expected final result, our tests started to show that we were failing in performance. The Progressive Web App was slower compared to the current mobile experience. One of the major risks to build a Single Page Application is to add too much code to load in order to start the application. An action was to be taken to take us on the right course again. We broke down the app in small pieces and make sure that we lazy loaded features only when needed. We used the PRPL pattern, which stands for Push, Render, Pre-cache, Lazy-load. The idea behind PRPL is to make sure that the first render happens as soon as possible, and to do that the developer should serve by priority elements that are visible and useful for the first interaction, using lazy-load technics through html import, service workers or by HTTP2 push. The result is that some applications features were downloaded only when requested or by the service worker in the background if the application was idle. This allowed to slim down the app shell by 200% and to get a faster first render.
+As soon as the application began to grow beyond the prototype and closer to the expected final result, our tests started to show that we were failing in performance. The Progressive Web App was slower compared to the current mobile experience. One of the major risks to build a Single Page Application is to add too much code to load in order to start the application. An action was to be taken to take us on the right course again. We broke down the app in small pieces and make sure that we lazy loaded features only when needed. We used the PRPL pattern, which stands for Push, Render, Pre-cache, Lazy-load. The idea behind PRPL is to make sure that the first render happens as soon as possible, and to do that the developer should serve by priority elements that are visible and useful for the first interaction, using lazy-load techniques through html import, service workers or by HTTP2 push. The result is that some applications features were downloaded only when requested or by the service worker in the background if the application was idle. This allowed to slim down the app shell by 200% and to get a faster first render.
 
 ### Unexpected Roadblocks
 
