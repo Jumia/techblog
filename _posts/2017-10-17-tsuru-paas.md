@@ -199,7 +199,7 @@ applications running on PaaS, SaaS and even CaaS.
 
 ### Give it a try
 
-Want to test Tsuru? Download Tsuru [Now](https://github.com/tsuru/now) follow this simple video [example](https://youtu.be/GiMsS0vGmn4?t=1245) to create, customize and scale a hello world PHP application in Tsuru.
+Want to test Tsuru? Download Tsuru [Now](https://github.com/tsuru/now) follow this simple video [example](https://www.youtube.com/watch?v=xgX_gwXj3Js) to create, customize and scale a hello world PHP application in Tsuru.
 
 ## Some references
 Check out the following links for additional information:
