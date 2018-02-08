@@ -38,7 +38,7 @@ Check [contributing guidelines](CONTRIBUTING.md).
 
 ## Security
 
-If you discover any security related issues, please email tiago.lopes@jumia.com instead of using the issue tracker.
+If you discover any security related issues, please email security@jumia.com instead of using the issue tracker.
 
 ## Credits
 
