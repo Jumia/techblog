@@ -2,5 +2,5 @@ Contact: security@jumia.com
 Encryption: https://group.jumia.com/security.gpg.key.txt
 Acknowledgements: https://group.jumia.com/security/#contributors
 Policy: https://group.jumia.com/security/
-Signature: https://tech.jumia.com/security.sig.txt
+Signature: https://group.jumia.com/security.sig.txt
 Hiring: https://careers.jumia.com/
