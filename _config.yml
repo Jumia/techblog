@@ -46,3 +46,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 paginate: 9
+
+include:  
+  - .well-known 
