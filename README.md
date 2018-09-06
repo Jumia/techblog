@@ -10,9 +10,15 @@ Source code of [https://tech.jumia.com/](https://tech.jumia.com/).
 ```bash
 $ git clone https://github.com/JumiaGroup/techblog.git tech.jumia.com
 $ cd tech.jumia.com
-$ docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll serve
+$ docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:3.8 jekyll serve
 # => Now browse to http://localhost:4000
 ```
+
+**Production env**
+
+Add `-e JEKYLL_ENV='production'` to the run command
+
+``$ docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -e JEKYLL_ENV='production' -p 4000:4000 jekyll/jekyll:3.8 jekyll serve``
 
 **OR installing jekyll**
 
@@ -23,6 +29,7 @@ $ cd tech.jumia.com
 $ bundle exec jekyll serve
 # => Now browse to http://localhost:4000
 ```
+
 
 ## Dependencies
 - Jekyll

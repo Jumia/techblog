@@ -18,7 +18,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Jumia Tech blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tech.jumia.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PortoTechCenter
 github_username:  jumiaGroup
 facebook_username: JumiaPortoTechCenter
