@@ -17,7 +17,7 @@ permalink: /not-your-kind-of-automation/
 
 Oh no, another post about automation? Well, kinda.
 
-When we talk about automation on our industry we first think about deploys, continuous integration, delivery and so on. But, I won’t be talking about that today, it’s, let’s say, another level, important part of it. How many times you’ve done a very boring repetitive task that takes your attention for quite some time and you get frustrated by not having time for doing the cool stuff?
+When we talk about automation in our industry we first think about deploys, continuous integration, delivery and so on. But, I won’t be talking about that today, it’s, let’s say, another level, important part of it. How many times you’ve done a very boring repetitive task that takes your attention for quite some time and you get frustrated by not having time for doing the cool stuff?
 
 …
 
@@ -25,19 +25,19 @@ Yeah, that’s right, I know the feeling.
 
 ## Background
 
-Inside Jumia, everyone knew that I had a huge set of scripts that did a lot of different things. Although that is good, the scripts were for my usage “only”. So the idea of sharing them was born. To make it happen, we thought of implementing a basic but powerful UI, which allows, execution of such scripts easily and be very user friendly. And so, we created JDash.
+Inside Jumia, everyone knew that I had a huge set of scripts that did a lot of different things. Although that is good, the scripts were for my usage “only”. So the idea of sharing them was born. To make it happen, we thought of implementing a basic but powerful UI, which allows, execution of such scripts easily and be very user-friendly. And so, we created JDash.
 
 (At the end I share JDash stack for the curious ones.)
 
 ## Why does it matter
 
-You can improve everyone’s work by doing so, from Developers to Top Management. The sky’s the limit. Also, you motivate your team by doing something different, you empower them, you make them more noticeable, and everyone can be involved in the tool / product evolution. So, how do I say this, our industry is full of talent, but, we still do not automate our most common tasks. And, honestly, we all are the one’s to blame. We do tech, so why don’t we take the time to improve our workflow by creating something that eases your and everyone’s life?
+You can improve everyone’s work by doing so, from Developers to Top Management. The sky’s the limit. Also, you motivate your team by doing something different, you empower them, you make them more noticeable, and everyone can be involved in the tool/product evolution. So, how do I say this, our industry is full of talent, but, we still do not automate our most common tasks. And, honestly, we all are the ones to blame. We do tech, so why don’t we take the time to improve our workflow by creating something that eases your and everyone’s life?
 
 ## Real example
 
 Let’s show exactly how JDash began.
 
-As you all know, we build e-commerce for several countries in Africa. For each, we have a backend and it’s own database, thus it’s specificity, like configurations. The first real scenario and feature of our tool was a simple Configuration Search. Imagine, having 12 countries, so, 12 databases / backends, where you must log into, search for the configuration, and get the value, versus, selecting a configuration for a given set of countries at a click of a button in which within less than 5 seconds you have your results. All at once.
+As you all know, we build e-commerce for several countries in Africa. For each, we have a backend and it’s own database, thus it’s specificity, like configurations. The first real scenario and feature of our tool was a simple Configuration Search. Imagine, having 12 countries, so, 12 databases/backends, where you must log into, search for the configuration, and get the value, versus, selecting a configuration for a given set of countries at a click of a button in which within less than 5 seconds you have your results. All at once.
 
 Ridiculous!!
 
@@ -82,7 +82,7 @@ With it, other benefits also arise. The team is able to work on something new, i
 
 ## About Me
 
-I’m Nuno Santos, started as developer at Jumia in 2012 and have been invited to be a Team Leader in 2015 and founded Ninja Bytes along with it’s members. A team that i’m proud of, being bold and innovative, brings innovation all the times and is always one step ahead leading Jumia to success.
+I’m Nuno Santos, started as a developer at Jumia in 2012 and have been invited to be a Team Leader in 2015 and founded Ninja Bytes along with it’s members. A team that I'm proud of, being bold and innovative, brings innovation all the times and is always one step ahead leading Jumia to success.
 
 Follow us:
 https://ninjabytesteam.com/
