@@ -10,7 +10,7 @@ The easiest way to propose a new post is by [open a new github issue](https://gi
 Make sure that you set the label "blog-content" in your issue.
 Use [post template](POST_TEMPLATE.md) as issue content.
 
-If you have a technicall background you may add your own post (and other posts):
+If you have a technical background you may add your own post (and other posts):
 
 * fork the repository
 * add your post file on _post/ folder
