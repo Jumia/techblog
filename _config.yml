@@ -39,7 +39,7 @@ sass:
     style: compressed
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
 exclude:
@@ -47,5 +47,5 @@ exclude:
   - Gemfile.lock
 paginate: 9
 
-include:  
-  - .well-known 
+include:
+  - .well-known
