@@ -15,7 +15,7 @@ permalink: /software-testing-the-seven-truths-you-have-to-deal-with/
 
 ## Introduction
 
-Humans developed software and they make it with a purpose. Software will do what it is programmed to do, through coding. However, with the increasing complexity of the systems developed, testing activities have become inevitable and an essential piece in software development.
+Humans develop software and they do it with a purpose. Software will do what it is programmed to do, through coding. However, with the increasing complexity of the systems developed, testing activities have become inevitable and an essential piece in software development.
 
 Testing is not a new activity, it is a creative and intellectual challenging task like code programming and they should walk side by side.
 
@@ -32,7 +32,7 @@ Testing activity has two main purposes:
 - check if code built by developer makes what the requirements asked by stakeholders;
 - check that what was developed did not break the expected behaviors already implemented.
 
-On this process, one of our missions while testers (there are too many, I can write another article about this topic) is to find bugs, report them, so they can be fixed before software’s release. However, not finding bugs does not tell that software is bug-free.
+On this process, one of our goals while testers (there are too many, I can write another article about this topic) is to find bugs, report them, so they can be fixed before software’s release. However, not finding bugs does not tell that software is bug-free.
 
 Imagine we have a website which has two features implying popup display. One opens an informative popup; the other one shows a newsletter subscription popup each time no one subscribed users make three actions on our page. These two features were tested without any issue to report. Some weeks later, after some exploratory testing, we have found that if the two popups are shown simultaneously the user is not able to close the first popup. Here, we have an example that the fact that bugs are not found doesn’t mean our software is bug-free.
 
@@ -89,7 +89,7 @@ The same approach can be applied on software testing, calling “Pesticide Parad
 
 - Regularly review and, if necessary, correct the tests already existent;
 - Refresh yourself with a pause and certainly new ideas will appear on your mind to create new tests; every time you have new ideas, write them down no matter where you are; it has already happened to me, having a task on a day and, at home, appeared in my mind new ideas in order to deal with a problem;
-- Request opinion to another tester, even if is a less experienced tester than you, to review your tests or ideas. He/she can give you new ideas or only talk about something that will wake and refresh your brain;
+- Ask another tester's opinion, even if he/she is a less experienced tester than you, to review your tests or ideas. He/she can give you new ideas or only talk about something that will awake and refresh your brain;
 - The opposite is also valid: if a tester requests your opinion do not refuse it: you will learn together;
 - In case you are a tester dedicated to a specific area of a product, dare you to explore other areas in order to discover new bugs; you will know more about the product too.
 
