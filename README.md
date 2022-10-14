@@ -10,7 +10,7 @@ Source code of [https://tech.jumia.com/](https://tech.jumia.com/).
 ```bash
 $ git clone https://github.com/JumiaGroup/techblog.git tech.jumia.com
 $ cd tech.jumia.com
-$ docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:3.8 jekyll serve
+$ docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:4.2.2 jekyll serve
 # => Now browse to http://localhost:4000
 ```
 
@@ -39,7 +39,7 @@ $ bundle exec jekyll serve
 ## Contributing
 Contributions are welcome and will be fully credited.   
 You can contribute with new posts or pages but feel free to contribute with design/development changes as well.  
-  
+
 Check [contributing guidelines](CONTRIBUTING.md).
 
 
