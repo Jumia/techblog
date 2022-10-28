@@ -4,7 +4,7 @@ title:  "Wanna get featured in the Play store?"
 author: "Liliana Sousa"
 date:   2016-04-13
 thumbnail: /img/posts/google-play-store-android.jpg
-categories: [mobile, product-ux-design]
+categories: [mobile, ux-design]
 tags: [ios, apple]
 permalink: /wanna-get-featured-in-the-play-store/
 ---

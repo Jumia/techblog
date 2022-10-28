@@ -4,8 +4,8 @@ title:  "10 Basic Tips to Build a WebAPI for Mobile Apps"
 author: "Liliana Sousa"
 date:   2016-04-05
 thumbnail: /img/posts/retro-thumb.jpg
-categories: [mobile, product-ux-design]
-tags: [api, ios, adnroid]
+categories: [mobile]
+tags: [api, ios, android]
 permalink: /10-basic-tips-to-build-a-webapi-for-mobile-apps/
 ---
 

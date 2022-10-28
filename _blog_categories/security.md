@@ -2,7 +2,7 @@
 layout: category
 slug: security
 name: "Security"
-menu-position: 70
+menu-position: 80
 ---
 
-All stories related and classified under Security category.
+Here you will find all content related to security.

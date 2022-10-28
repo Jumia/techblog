@@ -4,7 +4,7 @@ title:  "Scrumming Agreements"
 author: "Homero Leal"
 date:   2017-03-16 14:08:17 +0000
 thumbnail: /img/posts/scrumagreements-thumbnail.jpg
-categories: [agile, general]
+categories: [agile]
 tags: [agreements, scrum, teams]
 permalink: /scrumming-agreements/
 ---
@@ -79,7 +79,7 @@ So that we create a better, trustful and safer working environment
 	<img alt="Google Play" src="/img/posts/TAB.jpg" style="width: 90%" />
 </center>
 
- 
+
 
 # Outcome
 

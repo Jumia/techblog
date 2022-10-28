@@ -4,7 +4,7 @@ title:  "Focus on Ready"
 author: "Homero Leal"
 date:   2016-04-05
 thumbnail: /img/posts/ReadyUS-265x300.jpg
-categories: [agile, product-ux-design]
+categories: [agile]
 tags: [scrum]
 permalink: /focus-on-ready/
 ---
@@ -81,14 +81,14 @@ Example of our DoR:
 	* Business rules
 * Issue has been prioritized in the product backlog
 * Issue has been estimated by the team
-* Issue status updated in JIRA (state = "Ready for Development") 
+* Issue status updated in JIRA (state = "Ready for Development")
 
 ## Story = Bug
 
 * Issue written according to template "Bug Description"
 * Issue has been prioritized in the product backlog
 * Issue has been estimated by the team
-* Issue status updated in JIRA (state = "Ready for Development") 
+* Issue status updated in JIRA (state = "Ready for Development")
 
 # Summary
 

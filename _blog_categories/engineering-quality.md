@@ -5,4 +5,4 @@ name: "Engineering & Quality"
 menu-position: 30
 ---
 
-All stories related and classified under Engineering (Development, Quality etc.) category.
+Here you will find all stories related to, and classified under Engineering (Development, Quality etc.) category.

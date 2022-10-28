@@ -2,9 +2,9 @@
 layout: post
 title:  "Mobile first?"
 author: "Liliana Sousa"
-date:   2016-03-17 
+date:   2016-03-17
 thumbnail: /img/posts/mobile-first-300x187.jpg
-categories: [product-ux-design, mobile]
+categories: [mobile]
 tags: [ios, apple, android]
 permalink: /mobile-first/
 ---
@@ -21,7 +21,7 @@ The real question is: **Should we be mobile first?**
 
 # Let's look into the market a bit
 
-Beyond mobile first there's also the mobile only concept. *Myntra* did it. They shut down their website in May 2015, redirecting all user to the mobile apps. 
+Beyond mobile first there's also the mobile only concept. *Myntra* did it. They shut down their website in May 2015, redirecting all user to the mobile apps.
 
 <img src="/img/posts/myntra_offline.png" alt="Myntra shutdown" style="width: 100%;" />
 

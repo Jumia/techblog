@@ -5,4 +5,4 @@ name: General
 menu-position: 10
 ---
 
-We collect here all articles that cannot be classified under any other categories.
+Here you will find all content that cannot be classified under any other category.
