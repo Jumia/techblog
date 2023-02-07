@@ -4,7 +4,7 @@ title:  "Not your kind of automation"
 author: "Nuno Santos"
 date:   2018-09-17
 thumbnail: /img/posts/not-your-kind-of-automation/manual-vs-automated.png
-categories: [engineering-quality]
+categories: [development]
 tags: [automation,teams]
 permalink: /not-your-kind-of-automation/
 ---
