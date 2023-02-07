@@ -3,7 +3,7 @@ layout:     post
 title:      "A journey to Progressive Web Apps"
 date:       2017-05-23 12:10:00
 author:     "José Santos"
-categories: [web-development]
+categories: [engineering-quality]
 tags:       [pwa, web-components]
 permalink:  /a-journey-to-progressive-web-apps/
 thumbnail:  /img/posts/pwa-thumb.png
@@ -49,7 +49,7 @@ It should be an application that always works in any network condition, should b
 
 ## How we build our PWA
 
-When building a PWA we faced a series of challenges. I could say the first one was the fact there was no much where to look at. In our perspective PWA’s are still a very young concept or idea and we didn’t know where to go and how to get there. 
+When building a PWA we faced a series of challenges. I could say the first one was the fact there was no much where to look at. In our perspective PWA’s are still a very young concept or idea and we didn’t know where to go and how to get there.
 
 ### The search for the values
 
@@ -57,8 +57,8 @@ Somewhere around February 2016 I started to investigate more on how I could buil
 
 ### The custom way of building quality
 
-Custom Elements are basically a native API for you as a developer to create custom HTML tags. We can apply a default css to style the element, attach javascript to define the behaviors of the element and set custom properties to react with the element. 
-With those custom elements I was able to orchestrate a single page application. Polymer not only introduced me to web components but also make it more productive. With polymer attached to my custom elements I had a set of features available to manage elements bindings, listeners or observers. I was able to compose elements with custom classes called behaviors, this extended the possibility to reuse code in order to avoid duplicated code. 
+Custom Elements are basically a native API for you as a developer to create custom HTML tags. We can apply a default css to style the element, attach javascript to define the behaviors of the element and set custom properties to react with the element.
+With those custom elements I was able to orchestrate a single page application. Polymer not only introduced me to web components but also make it more productive. With polymer attached to my custom elements I had a set of features available to manage elements bindings, listeners or observers. I was able to compose elements with custom classes called behaviors, this extended the possibility to reuse code in order to avoid duplicated code.
 From a single custom element to a full functional application seemed to be the next logical step and there was much more from the Polymer team to use in our advantage. Web components from  the Polymer catalog like the app-layout elements provided an application shell for us, and the Polymer Cli all that we needed to generate our service worker but also to build and deploy the application.
 
 ~~~~
@@ -79,7 +79,7 @@ customElements.define('hello-element', HelloElement);
 ~~~~
 [Example from mozilla](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements)
 
-We felt we were ready to go. 
+We felt we were ready to go.
 
 ### Go hands on
 
@@ -93,7 +93,7 @@ The numbers were promising:
 A new challenge was ahead. How to deliver this app project to any of the development teams knowing that none had any experience in Web components or Polymer. But also how to transmit the idea and new mentality that building this web application was closer to build a native application than actually the standard client to server requests. This PWA acts more like a native app, with state management, highly cached data and a complete new type of architecture which brought to us as a new development model, the Demo driven development. With this model we create custom elements that are atomic systems, self maintaining and testable by unit.
 This challenge was very important to me and I understood it was the only way this project could be successful. Internally I’ve promoted trainings for each team. It was both a theoretical and practical knowledge sharing.
 
-### Bigger may not be better 
+### Bigger may not be better
 
 <img style="padding: 0 0 16px 16px" align="right" src="/img/posts/app-build-components.png" alt="PRPL" />
 
@@ -140,6 +140,3 @@ Well designed PWA are in fact faster, engaging and reliable, but they are also H
  * [Taylor Savage showcasing Jumia Travel PWA in the Chromedev Summit 2016](https://www.youtube.com/watch?v=Ihdp63FaRKA&t=12m44s)
  * [Jumia Travel Show case at Google I/O'17](https://www.youtube.com/watch?v=cuoZenpQveQ&list=PLNYkxOF6rcICniLJ2rfj0FexlA-9zmJJE&index=2&t=12m45s)
  * [Jumia Travel among many other PWA at Google I/O'17](https://www.youtube.com/watch?v=_ssDaecATCM&list=PLNYkxOF6rcICniLJ2rfj0FexlA-9zmJJE&index=6&t=15m12s)
-
-
-

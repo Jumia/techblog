@@ -4,8 +4,8 @@ title:  "Apple approval process, the Pandora's box"
 date:   2016-05-02 14:08:17 +0000
 author: "Liliana Sousa"
 thumbnail: /img/posts/pandora-apple-ios-icon.png
-categories: ["mobile", "general"]
-tags: ["apple", "ios"]
+categories: [mobile]
+tags: [apple, ios]
 permalink: /apple-approval-process-the-pandoras-box/
 ---
 
@@ -13,7 +13,7 @@ permalink: /apple-approval-process-the-pandoras-box/
 <center>
 	<img src="/img/posts/pandora-apple-ios-icon.png" style="width: 100px" />
 </center>
-    
+
 
 During our experience releasing iOS apps, we already got them rejected a couple of times.    
 
@@ -22,7 +22,7 @@ During our experience releasing iOS apps, we already got them rejected a couple 
 You never know when they will perform the review, who and how.    
 
 
-# When 
+# When
 
 Internet mythology around Apple says that the best day of the week to submit your app is Thursday. But you’ll never know for sure if that’s true and data from our experience does not say that.
 

@@ -5,4 +5,4 @@ name: "Data Engineering"
 menu-position: 40
 ---
 
-All stories related and classified under Engineering (Development, Quality etc.) category.
+Interested in Data Engineering? We got you covered with cool content under this category.
