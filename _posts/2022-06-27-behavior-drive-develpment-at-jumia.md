@@ -113,3 +113,7 @@ In the next stories we will zoom in on the first BDD practice: Discovery. Stay t
 
 - [1] [The BDD Books: Discovery](https://leanpub.com/bddbooks-discovery)
 - [2] [The BDD Books: Formulation](https://leanpub.com/bddbooks-formulation)
+
+# Authors
+- [Emanuel Fernando Miranda, Director of Engineering Experience at Jumia](https://www.linkedin.com/in/emanuel-miranda-3228994b/)
+- [Ravier Meister, Engineering Manager at Jumia](https://www.linkedin.com/in/ravier-meister-58a4295b/)
