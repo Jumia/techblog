@@ -4,7 +4,7 @@ title:  "Software testing: the seven truths you have to deal with!"
 author: "Helena Rodrigues"
 date:   2020-02-01
 thumbnail: /img/posts/software-testing-the-seven-truths-you-have-to-deal-with/software-testing.jpeg
-categories: [engineering-quality]
+categories: [testing]
 tags: [testing]
 permalink: /software-testing-the-seven-truths-you-have-to-deal-with/
 ---

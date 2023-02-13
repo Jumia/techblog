@@ -3,7 +3,7 @@ layout:     post
 title:      "A journey to Progressive Web Apps"
 date:       2017-05-23 12:10:00
 author:     "José Santos"
-categories: [engineering-quality]
+categories: [development]
 tags:       [pwa, web-components]
 permalink:  /a-journey-to-progressive-web-apps/
 thumbnail:  /img/posts/pwa-thumb.png

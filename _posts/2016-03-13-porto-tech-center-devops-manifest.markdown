@@ -2,9 +2,9 @@
 layout: post
 title:  "Porto Tech Center devops manifest"
 author: "Rui Duarte"
-date:   2016-03-13 
+date:   2016-03-13
 thumbnail: /img/posts/devops_icon.png
-categories: [engineering-quality]
+categories: [agile]
 tags: [devops]
 permalink: /porto-tech-center-devops-manifest/
 ---
@@ -42,7 +42,7 @@ permalink: /porto-tech-center-devops-manifest/
 ------------- | -------------
 Venn diagram showing DevOps as the intersection of development (software engineering), technology operations and quality assurance (QA) In traditional, functionally separated organizations there is rarely cross-departmental integration of these functions with IT operations. DevOps promotes a set of processes and methods for thinking about communication and collaboration between development, QA, and IT operations. | ![alt text](/img/posts/diagram-01.png "DevOps as the intersection of development")
 
-![alt text](/img/posts/devops_icon.png "DevOps Icon") | 
+![alt text](/img/posts/devops_icon.png "DevOps Icon") |
 
 
 ## DevOps Responsibility
@@ -61,5 +61,5 @@ Venn diagram showing DevOps as the intersection of development (software enginee
 * Delivery teams run software products – not projects – that run from inception to retirement
 
 
-> “You Build It, You Run It.” 
+> “You Build It, You Run It.”
 -- (Werner Vogels, CTO of Amazon)

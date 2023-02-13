@@ -4,7 +4,7 @@ title:  "User Authentication: Look ma, no servers!"
 date:   2017-03-31 10:18:00 +0000
 author: "Daniel Loureiro & Tiago Caxias"
 thumbnail: /img/posts/ShutdownYourServers-Jumia-thumbnail.jpg
-categories: [engineering-quality, security, data-engineering]
+categories: [development, security, data-engineering]
 tags: [devops, dynamodb, security]
 permalink: /jumia-central-authentication-system/
 ---
@@ -14,7 +14,7 @@ permalink: /jumia-central-authentication-system/
 <center>
 	<img src="/img/posts/ShutdownYourServers-Jumia.jpg" style="width: 100%;" />
 </center>
-    
+
 *This is part of a guest post on [Amazon Web Services Compute Blog](https://aws.amazon.com/blogs/compute/a-serverless-authentication-system-by-jumia).
 
 
@@ -138,7 +138,7 @@ Here’s a snippet off code to perform envelope encryption. We just need to encr
 	iv = Random.new().read(AES.block_size)
 	#Padding the message for the correct block size
 	secret = pad(secret)
-	#Generate ciphered text with AES256 CBC Mode 
+	#Generate ciphered text with AES256 CBC Mode
 	cipher = AES.new(k['Plaintext'], AES.MODE_CBC, iv )
 	#Data to save in the field data
 	csecret = iv + cipher.encrypt(secret)

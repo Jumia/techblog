@@ -4,7 +4,7 @@ title:  "Tsuru PaaS"
 author: "Jean-Marie Joly"
 date:   2017-10-17
 thumbnail: /img/posts/tsuru/tsuru.png
-categories: [engineering-quality]
+categories: [development]
 tags: [devops]
 permalink: /tsuru-paas/
 ---
@@ -13,7 +13,7 @@ permalink: /tsuru-paas/
 <center>
 	<img alt="Tsuru logo" src="/img/posts/tsuru/tsuru.png" style="width: 90%; margin-bottom: 10px;" />
 </center>  
-  
+
 
 This article is about how a Platform as a Service, named Tsuru, allowed us to
 handle an increasing flow of applications, widely scale our infrastructure and
@@ -134,7 +134,7 @@ Engine naturally scale horizontally; Redis and MongoDB support master/slave
 replication, and you can directly use AWS Elastic Container Registry as a
 Docker registry to manage your application images. With Tsuru you can start
 with a very small infrastructure - in AWS, all Tsuru components can run on a
-t2.micro instance (1 CPU, 1 GB of RAM) for test or development purposes. 
+t2.micro instance (1 CPU, 1 GB of RAM) for test or development purposes.
 You may then progressively scale each component according to its usage.
 
 As we began managing more services with Tsuru we noticed that Docker Engine
@@ -162,7 +162,7 @@ Best practice for logging in containers is to redirect any log to *stdout* and
 processed.  However, if you use AWS instance roles you may actually configure
 Docker (and Tsuru) to send all logs directly to Cloudwatch. This gives you a
 nice interface to browse your application logs.
- 
+
 ```
 --log-driver awslogs --log-opt awslogs-region=<aws-region-code> \
 --log-opt awslogs-group=my.tsuru.cluster --log-opt tag='{% raw %}{{.Name}}{% endraw %}'
