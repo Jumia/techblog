@@ -5,4 +5,4 @@ name: "UX & Design"
 menu-position: 50
 ---
 
-Interested in the process of User Experience Design, here you will find interesting reads on the topic.
+Designing creative and user-friendly technology for anyone is no simple task. Still, our product design team loves the challenge and the impact they can have with their work. In this section, our product design team will share their experience on how their design impacts the evolution of Jumia Products across Africa.
